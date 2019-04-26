@@ -9,9 +9,9 @@ def key_for_min_value(name_hash)
   if value < value1 && value < value2
   	puts :blake
   elsif value1 < value && value1 < value2
-  	puts :
+  	puts :ashley
   elsif value2 < value && value2 < value1
-  	name_hash.filter { |x| x == :adam }
+  	puts :adam
   end
 
 end

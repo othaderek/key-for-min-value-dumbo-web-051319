@@ -5,14 +5,13 @@ def key_for_min_value(name_hash)
   key, value = name_hash.shift
   key1, value1 = name_hash.shift
   key2, value2 = name_hash.shift
-  solution = {}
 
   if value < value1 && value < value2
-  	name_hash.filter { |x| x == : }
+  	name_hash.filter { |x| x == :blake }
   elsif value1 < value && value1 < value2
-  	solution = key1
+  	name_hash.filter { |x| x == :ashley }
   elsif value2 < value && value2 < value1
-  	solution = key2
+  	name_hash.filter { |x| x == :adam }
   end
   puts solution
 

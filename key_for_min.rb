@@ -7,6 +7,8 @@ def key_for_min_value(name_hash)
   key2, value2 = name_hash.shift
   
   if name_hash == {}
+    return nil
+  end
 
   if value < value1 && value < value2
   	return :blake

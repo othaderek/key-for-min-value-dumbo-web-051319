@@ -2,6 +2,16 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
-  h = name_hash.shift
+  key, value = name_hash.shift
+  key1, value1 = name_hash.shift
+  key2, value2 = name_hash.shift
+
+  if value < value1 && value < value2
+  	puts key
+  elsif value1 < value && value1 < value2
+  	puts key1
+  elsif value2 < value && value2 < value1
+  	puts key2
+  end
 
 end

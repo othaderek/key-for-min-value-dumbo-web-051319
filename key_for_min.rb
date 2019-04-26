@@ -13,6 +13,5 @@ def key_for_min_value(name_hash)
   elsif value2 < value && value2 < value1
   	name_hash.filter { |x| x == :adam }
   end
-  puts solution
 
 end

@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   solution = {}
 
   if value < value1 && value < value2
-  	solution = key
+  	name_hash.filter { |x| x == : }
   elsif value1 < value && value1 < value2
   	solution = key1
   elsif value2 < value && value2 < value1

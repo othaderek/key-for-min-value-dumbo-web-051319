@@ -2,6 +2,10 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+  if name_hash == {}
+    return nil 
+  end
+
   key, value = name_hash.shift
   key1, value1 = name_hash.shift
   key2, value2 = name_hash.shift
@@ -14,9 +18,6 @@ def key_for_min_value(name_hash)
   	return :adam
   end
   
-  if name_hash == {}
-    return nil 
-  end
 
 
 

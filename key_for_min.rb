@@ -5,9 +5,10 @@ def key_for_min_value(name_hash)
   key, value = name_hash.shift
   key1, value1 = name_hash.shift
   key2, value2 = name_hash.shift
+  solution = {}
 
   if value < value1 && value < value2
-  	puts key.to_sym
+  	solution = key
   elsif value1 < value && value1 < value2
   	puts key1.to_sym
   elsif value2 < value && value2 < value1

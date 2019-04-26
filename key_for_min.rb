@@ -12,7 +12,7 @@ def key_for_min_value(name_hash)
   	return :ashley
   elsif value2 < value && value2 < value1
   	return :adam
-  elsif name_hash == 0
+  elsif name_hash == {}
     return nil
   end
 

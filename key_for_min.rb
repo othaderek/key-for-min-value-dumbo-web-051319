@@ -9,5 +9,6 @@ def key_for_min_value(name_hash)
     v << key
   end
   puts v
+  puts k
 
 end

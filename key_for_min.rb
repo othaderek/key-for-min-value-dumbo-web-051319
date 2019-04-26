@@ -7,7 +7,6 @@ def key_for_min_value(name_hash)
   key2, value2 = name_hash.shift
   
   if name_hash != {}
-
     if value < value1 && value < value2
     	return :blake
     elsif value1 < value && value1 < value2
@@ -15,5 +14,8 @@ def key_for_min_value(name_hash)
     elsif value2 < value && value2 < value1
     	return :adam
     end
+  else
+    return nil 
+  end
 
 end
